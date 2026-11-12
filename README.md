@@ -2,7 +2,7 @@
 
 **Most "Polish" language models are foreign models — Chinese, French or American — fine-tuned on Polish text. lexpl is not.** We pre-train our own model from zero: Polish data, our own tokenizer, our own weights. Nothing underneath it comes from someone else's model.
 
-The first domain is Polish law and tax: lexpl answers with a verbatim quote of the provision in force — and says so when it cannot find a reliable source.
+The first domain is Polish law and tax: lexpl learns to answer with a verbatim quote of the provision in force — and says so when it cannot find a reliable source.
 
 > **Status: in training.** This repository is a public overview. Source code, model weights, training data, methods and configuration are proprietary to [Antillia Tech](https://antillia.tech).
 
@@ -48,9 +48,9 @@ Each release is the same 150 M base model with a better post-training recipe —
 3. **Scale up** — with funding: larger models, more domains, more countries' law using the same recipe.
 4. **Long term** — a fully Polish foundation model, growing towards ~100 B parameters. Trained from scratch, not borrowed.
 
-## What we build on it
+## What we plan to build on it
 
-We do not build another chatbot that "talks nicely". We build narrow AI tools for real work, with our own model inside:
+We do not plan another chatbot that "talks nicely". We plan narrow AI tools for real work, with our own model inside:
 
 - **Legal and tax assistant** — answers with verifiable citations of the law in force.
 - **Documents** — reading, extracting, filling in and sorting Polish documents for offices, accounting firms and law firms.
