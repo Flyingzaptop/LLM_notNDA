@@ -33,13 +33,13 @@ Each release is the same 150 M base model with a better post-training recipe —
 | **R6 (current)** | **71.0 %** | 90 / 100 | 119 / 200 | 86 / 100 | **31 / 421** |
 | R7 | *in progress — people's own questions* | | | | |
 
-1. Official entrance exams, development split (1 350 of 4 500 questions; the rest stays untouched). Pass mark: 66.7 %. Reference without any model (matching the answer options to the retrieved articles word by word): 69.3 %.
+1. Official entrance exams, development split (1 350 of 4 500 questions; the rest stays untouched). Pass mark: 66.7 %.
 2. "What does art. X say / which article says …" — correct article and an exact quote of its text.
 3. Real taxpayer questions from official tax interpretations, held out from training: the right provision.
 4. The same citation questions typed in lowercase without Polish letters.
 5. Questions written the way people ask, about articles held out from training (181 questions until R4, 421 from R5).
 
-**Current results (R6):** 71.0 % on the entrance exams — above the pass mark (66.7 %) and the no-model reference (69.3 %). A ready-made open general model about 30× larger scores 53.0 % on the same questions. Next target: people's own, colloquial questions.
+**Current results (R6):** 71.0 % on the entrance exams — above the pass mark (66.7 %). A ready-made open general model about 30× larger scores 53.0 % on the same questions. Next target: people's own, colloquial questions.
 
 ## Where we are going
 
